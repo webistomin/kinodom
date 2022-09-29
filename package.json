@@ -1,0 +1,8 @@
+{
+  "name": "@kinodom/root",
+  "private": true,
+  "scripts": {
+    "setup": "pnpm run bootstrap",
+    "bootstrap": "pnpm install"
+  }
+}
