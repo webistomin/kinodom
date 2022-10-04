@@ -5,13 +5,15 @@
     "setup": "pnpm run bootstrap",
     "bootstrap": "pnpm install",
     "postinstall": "simple-git-hooks",
-    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx,.vue . --max-warnings 0"
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx,.vue . --max-warnings 0",
+    "lint:js:fix": "eslint --ext .js,.jsx,.ts,.tsx,.vue . --max-warnings 0 --fix",
+    "lint:css": "stylelint **/*.{vue,scss,css}",
+    "lint:css:fix": "stylelint **/*.{vue,scss,css} --fix"
   },
   "devDependencies": {
     "@kinodom/eslint-config": "workspace:*",
-    "eslint": "^8.24.0",
+    "@kinodom/stylelint-config": "workspace:*",
     "nano-staged": "^0.8.0",
-    "simple-git-hooks": "^2.8.0",
-    "typescript": "^4.8.4"
+    "simple-git-hooks": "^2.8.0"
   }
 }
