@@ -1,0 +1,8 @@
+{
+  "name": "@kinodom/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^11.0.0"
+  }
+}
