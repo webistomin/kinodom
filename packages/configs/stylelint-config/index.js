@@ -5,5 +5,8 @@ module.exports = {
     'stylelint-config-rational-order',
     'stylelint-config-standard-scss',
     'stylelint-config-standard-vue/scss'
-  ]
+  ],
+  rules: {
+    'no-empty-source': null
+  }
 }

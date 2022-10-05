@@ -11,5 +11,8 @@
   "devDependencies": {
     "@unocss/nuxt": "^0.45.26",
     "nuxt": "3.0.0-rc.11"
+  },
+  "dependencies": {
+    "@kinodom/api": "workspace:^1.0.0"
   }
 }

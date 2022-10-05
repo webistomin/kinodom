@@ -9,5 +9,10 @@ export default defineNuxtConfig({
   },
   typescript: {
     strict: true
+  },
+  experimental: {
+    inlineSSRStyles: (path) => {
+      return path.includes('app.vue')
+    }
   }
 })
